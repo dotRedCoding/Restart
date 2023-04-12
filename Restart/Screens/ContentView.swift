@@ -21,7 +21,8 @@ struct ContentView: View {
             } else {
                 HomeView()
             }
-        }
+        } // END of ZStack
+        .animation(.easeOut(duration: 0.5), value: isOnboardingViewActive)
     }
 }
 
