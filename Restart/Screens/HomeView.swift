@@ -22,7 +22,7 @@ struct HomeView: View {
             }) {
                 Text("Restart")
             }
-        } // VSTACK
+        } // End of VSTACK
     }
 }
 
